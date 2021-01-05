@@ -887,6 +887,12 @@ input[type="button"].btn--primary:focus {
     border-radius: 1000px !important;
 }
 
+.btn--pill-mod, button.btn--pill-mod {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+    border-radius: 500px !important;
+}
+
 button::-moz-focus-inner, input::-moz-focus-inner {
     border: 0;
     padding: 0;
@@ -2114,7 +2120,7 @@ html.no-csstransitions .home-content__main {
         right: 4rem;
     }
     .home-content__scroll {
-        right: 7.5rem;
+        right: 1rem;
     }
     .home-content__line {
         right: 5.5rem;

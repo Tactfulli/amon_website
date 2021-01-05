@@ -23,12 +23,13 @@
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/vendor.css">
     <link rel="stylesheet" href="css/main.css">
+    
 
     <!-- script
     ================================================== -->
     <script src="js/modernizr.js"></script>
     <script src="js/pace.min.js"></script>
-
+    <script src="js/dropdownButton.js"></script>
     <!-- favicons
     ================================================== -->
     <link rel="shortcut icon" href="favicon_legit.ico" type="image/x-icon">
@@ -66,8 +67,9 @@
 
         <div class="header-logo">
             <br />
-            <a class="site-logo" href="index.html" >
-                <img src="images/tactfulli_logo.png" alt="Homepage">
+            <a class="site-logo" href="index.html"style="position:relative">
+                <img src="images/100x100.png" srcset="images/200x200.png 200w, 
+                images/100x100.png 100w"  alt="Homepage">
             </a>
         </div>
 
@@ -144,7 +146,7 @@
 
             </div>
 
-            <div class="home-content__scroll"  style="display: flex; width:90%">
+            <div class="home-content__scroll"  style="display: flex; width:90%;">
                 <a href="#about" class="scroll-link smoothscroll">
                     <span>Scroll Down</span>
                 </a>
@@ -222,9 +224,9 @@
             </div>
 
         </div> 
-       
-        <div class="about__line"></div>
         -->
+        <div class="about__line"></div>
+       
     </section> <!-- end s-about -->
 
 
@@ -250,7 +252,7 @@
                     <h3 class="h2">Brand Identity</h3>
                     <p>Today how people perceive your brand is everything. 
                     It reflects you and the quality of your business. <br>
-                    Let us help you increase the awareness of what your brand stands for.
+                    We help you increase the awareness of what your brand stands for.
                     </p>
                 </div>
             </div>
@@ -273,26 +275,25 @@
                     <i class="icon-megaphone"></i>
                 </div>  
                 <div class="service-text">
-                    <h3 class="h2">Facebook Ads</h3>
+                    <h3 class="h2">Facebook Advertising</h3>
                     <p>Tired of burning cash in Facebook ads with no results?  
                     We help you get quality leads who need your products and services.
                     </p>
                 </div>
             </div>
-            <!-- 
+             
             <div class="col-block service-item" data-aos="fade-up">
                 <div class="service-icon">
                     <i class="icon-earth"></i>
                 </div>
                 <div class="service-text">
-                    <h3 class="h2">Web Design</h3>
-                    <p>Nemo cupiditate ab quibusdam quaerat impedit magni. Earum suscipit ipsum laudantium. 
-                    Quo delectus est. Maiores voluptas ab sit natus veritatis ut. Debitis nulla cumque veritatis.
-                    Sunt suscipit voluptas ipsa in tempora esse soluta sint.
+                    <h3 class="h2">Consulting</h3>
+                    <p>Knowledge gap can be daunting. If you are a business owner that needs a helping hand in running<br> 
+                    your ads and campaigns, a quick call is the way to go.
                     </p>
                 </div>
             </div>
-
+<!--
             <div class="col-block service-item" data-aos="fade-up">
                 <div class="service-icon">
                     <i class="icon-cube"></i>
@@ -318,7 +319,51 @@
             </div>
             -->
         </div> <!-- end services-list -->
-
+        <div class="row section-header has-bottom-sep" data-aos="fade-up">
+            <div class="col-full">
+                <h3 class="subhead">Our Process</h3>
+                <h1 class="display-2">We have a six-step methodology in how we'll take your business from where you are to where you want to be.</h1>
+            </div>
+        </div> <!--Process -->
+        <div class="row " style="margin-left:18%">
+            <div  data-aos="fade-up" >
+                <div style="display:inline-flex">
+                    <a class="btn btn--stroke btn--pill-mod" onclick="displayMessage(1)" >1. Consultation</a> 
+                    <div class="service-text" id="consult-div" style="justify-content:center" ></div>
+                </div>
+            </div>
+            <div  data-aos="fade-up">
+                <div style="display:inline-flex">
+                <a class="btn btn--stroke btn--pill-mod" onclick="displayMessage(2)" >2. Creative Research</a>
+                <div class="service-text" id="creative-div" style="justify-content:center" ></div>
+                </div>
+            </div>
+            <div  data-aos="fade-up" >
+                <div style="display:inline-flex">
+                    <a class="btn btn--stroke btn--pill-mod" onclick="displayMessage(3)" >3. Strategy Call</a>
+                    <div class="service-text" id="strategy-div" style="justify-content:center" ></div>
+                </div>
+            </div>
+            <div  data-aos="fade-up"  >
+                <div style="display:inline-flex">
+                    <a class="btn btn--stroke btn--pill-mod" onclick="displayMessage(4)" >4. Campaign & Ads Creation</a>
+                    <div class="service-text" id="campaign-div" style="justify-content:center" ></div>
+                </div>
+            </div>
+            <div data-aos="fade-up"  >
+                <div style="display:inline-flex">
+                    <a class="btn btn--stroke btn--pill-mod" onclick="displayMessage(5)" >5. Launch & Learn</a>
+                    <div class="service-text" id="launch-div" style="justify-content:center" ></div>
+                </div>
+            <div data-aos="fade-up"  >
+                <div style="display:inline-flex">
+                    <a class="btn btn--stroke btn--pill-mod" onclick="displayMessage(6)" >6. Optimize & Repeat</a>
+                    <div class="service-text" id="optimize-div" style="justify-content:center" ></div>
+                </div>
+            </div>
+        </div>
+       
+           
     </section> <!-- end s-services -->
 
 
