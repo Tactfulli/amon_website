@@ -1431,7 +1431,29 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     background: #39b54a;
 }
 
-
+.process-div{
+    display:inline-flex;
+    overflow:hidden;
+    flex-flow:row wrap;
+            
+    -webkit-justify-content: flex;
+    -moz-justify-content: -moz-flex;
+    justify-content: flex;
+            
+    display: -webkit-box; /* Safari */ 
+    display: -moz-box; /* Firefox 21- */
+    display: -ms-flexbox; /* IE 10+ */
+    display: -webkit-flex; /* Chrome */
+    display: flex; /* Standard (Firefox 22+) */
+            
+    -webkit-box-orient: horizontal;
+    -moz-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -moz-box-direction: normal;
+    -ms-flex-direction: row;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+}
 
 /* ===================================================================
  * # header styles
@@ -1452,10 +1474,10 @@ button::-moz-focus-inner, input::-moz-focus-inner {
  * ------------------------------------------------------------------- */
 .header-logo {
     display: inline-block;
-    position: absolute;
+    position: relative;
     margin: 0;
     padding: 0;
-    left: 40px;
+    left: 40%;
     top: 50%;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
@@ -1465,11 +1487,12 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 
 .header-logo a {
     display: block;
+    left: 40%;
     margin: 9px 0 0 0;
     padding: 0;
     outline: 0;
     border: none;
-    width: 200px;
+    width: 150px;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
 }

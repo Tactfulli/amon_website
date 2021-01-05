@@ -34,28 +34,6 @@
     ================================================== -->
     <link rel="shortcut icon" href="favicon_legit.ico" type="image/x-icon">
     <link rel="icon" href="favicon_legit.ico" type="image/x-icon">
-    <!--FIGURE OUT RESPONSIVE -->
-    <!--<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest"> -->
-    <!-- Facebook Pixel Code -->
-    <script>
-    !function(f,b,e,v,n,t,s)
-    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-    n.queue=[];t=b.createElement(e);t.async=!0;
-    t.src=v;s=b.getElementsByTagName(e)[0];
-    s.parentNode.insertBefore(t,s)}(window, document,'script',
-    'https://connect.facebook.net/en_US/fbevents.js');
-    fbq('init', '809398422957634');
-    fbq('track', 'PageView');
-    </script>
-    <noscript><img height="1" width="1" style="display:none"
-    src="https://www.facebook.com/tr?id=809398422957634&ev=PageView&noscript=1"
-    /></noscript>
-    <!-- End Facebook Pixel Code -->
 
 </head>
 
@@ -67,9 +45,8 @@
 
         <div class="header-logo">
             <br />
-            <a class="site-logo" href="index.html"style="position:relative">
-                <img src="images/100x100.png" srcset="images/200x200.png 200w, 
-                images/100x100.png 100w"  alt="Homepage">
+            <a class="site-logo" href="index.html"style="position:relative;">
+                <img src="images/150x150.png"  alt="Homepage" >
             </a>
         </div>
 
@@ -84,6 +61,7 @@
                     <li class="current"><a class="smoothscroll"  href="#home" title="home">Home</a></li>
                     <li><a class="smoothscroll"  href="#about" title="about">About</a></li>
                     <li><a class="smoothscroll"  href="#services" title="services">Services</a></li>
+                    <li><a class="smoothscroll"  href="#process" title="process">Process</a></li>
                     <!--<li><a class="smoothscroll"  href="#works" title="works">Works</a></li>
                     <li><a class="smoothscroll"  href="#clients" title="clients">Clients</a></li>-->
                     <li><a class="smoothscroll"  href="#contact" title="contact">Contact</a></li>
@@ -93,7 +71,7 @@
     
                 <ul class="header-nav__social">
                     <li>
-                        <a href="#"><i class="fa fa-facebook"></i></a>
+                        <a href="https://www.facebook.com/tactfulli"><i class="fa fa-facebook"></i></a>
                     </li>
                     <!--<li>
                         <a href="#"><i class="fa fa-twitter"></i></a>
@@ -130,6 +108,7 @@
 
         <div class="home-content">
             <div class="row home-content__main">
+                <br>
                 <h3>Welcome to Tactfulli</h3>
                 <h1>
                     We help you grow by designing compelling Facebook ads <br>
@@ -188,7 +167,7 @@
             <div class="col-full">
                 <p>
                    Tactfulli comes from the word <b>tactful</b>. <br/> 
-                   We understand how a significant online presence can boost your revenue.<br>
+                   Our service is completely bespoke so <br> we can cater to your digital marketing needs.<br>
                    We help you make that jump.
                 </p>
             </div>
@@ -246,18 +225,7 @@
 
         <div class="row services-list block-1-2 block-tab-full">
 
-            <div class="col-block service-item" data-aos="fade-up">
-                <div class="service-icon">
-                    <i class="icon-paint-brush"></i>
-                </div>
-                <div class="service-text">
-                    <h3 class="h2">Brand Identity</h3>
-                    <p>Today how people perceive your brand is everything. 
-                    It reflects you and the quality of your business. <br>
-                    We help you increase the awareness of what your brand stands for.
-                    </p>
-                </div>
-            </div>
+            
             <!-- 
             <div class="col-block service-item" data-aos="fade-up">
                 <div class="service-icon">
@@ -283,7 +251,18 @@
                     </p>
                 </div>
             </div>
-             
+            <div class="col-block service-item" data-aos="fade-up">
+                <div class="service-icon">
+                    <i class="icon-paint-brush"></i>
+                </div>
+                <div class="service-text">
+                    <h3 class="h2">Brand Identity</h3>
+                    <p>Today how people perceive your brand is everything. 
+                    It reflects you and the quality of your business. <br>
+                    We amplify the awareness of what your brand stands for <br> because your business deserve to be seen.
+                    </p>
+                </div>
+            </div>
             <div class="col-block service-item" data-aos="fade-up">
                 <div class="service-icon">
                     <i class="icon-earth"></i>
@@ -321,48 +300,38 @@
             </div>
             -->
         </div> <!-- end services-list -->
-        <div class="row section-header has-bottom-sep" data-aos="fade-up">
+        <br>
+        <div id="process" class="row section-header has-bottom-sep" data-aos="fade-up">
+            <br>
             <div class="col-full">
                 <h3 class="subhead">Our Process</h3>
-                <h1 class="display-2">We have a six-step methodology in how we'll take your business from where you are to where you want to be.</h1>
+                <h1 class="display-2">We take you to a four-step journey to help you reach your goals.</h1>
             </div>
         </div> <!--Process -->
         <div class="row " style="margin-left:15%">
             <div  data-aos="fade-up" >
-                <div style="display:inline-flex">
+                <div class="process-div">
                     <a class="btn btn--stroke btn--pill-mod" onclick="displayMessage(1)">1. Consultation</a> 
                     <div class="service-text" id="consult-div" style="justify-content:center" ></div>
                 </div>
             </div>
-            <div  data-aos="fade-up">
-                <div style="display:inline-flex">
-                <a class="btn btn--stroke btn--pill-mod" onclick="displayMessage(2)"  >2. Creative Research</a>
-                <div class="service-text" id="creative-div" style="justify-content:center" ></div>
-                </div>
-            </div>
             <div  data-aos="fade-up" >
-                <div style="display:inline-flex">
-                    <a class="btn btn--stroke btn--pill-mod" onclick="displayMessage(3)"  >3. Strategy Call</a>
+                <div class="process-div">
+                    <a class="btn btn--stroke btn--pill-mod" onclick="displayMessage(2)"  >2. Strategy Call</a>
                     <div class="service-text" id="strategy-div" style="justify-content:center" ></div>
                 </div>
             </div>
             <div  data-aos="fade-up"  >
-                <div style="display:inline-flex">
-                    <a class="btn btn--stroke btn--pill-mod" onclick="displayMessage(4)" >4. Campaign & Ads Creation</a>
+                <div  class="process-div">
+                    <a class="btn btn--stroke btn--pill-mod" onclick="displayMessage(3)" >3. Campaign & Ads Creation</a>
                     <div class="service-text" id="campaign-div" style="justify-content:center" ></div>
                 </div>
             </div>
             <div data-aos="fade-up"  >
-                <div style="display:inline-flex">
-                    <a class="btn btn--stroke btn--pill-mod" onclick="displayMessage(5)" >5. Launch & Learn</a>
+                <div  class="process-div">
+                    <a class="btn btn--stroke btn--pill-mod" onclick="displayMessage(4)" >4. Learn & optimize.</a>
                     <div class="service-text" id="launch-div" style="justify-content:center" ></div>
                 </div>
-            <div data-aos="fade-up"  >
-                <div style="display:inline-flex">
-                    <a class="btn btn--stroke btn--pill-mod" onclick="displayMessage(6)"  >6. Optimize & Repeat</a>
-                    <div class="service-text" id="optimize-div" style="justify-content:center" ></div>
-                </div>
-            </div>
         </div>
        
            
@@ -808,7 +777,8 @@
 
             <div class="col-twelve">
                 <div class="copyright">
-                    <span>© Copyright Tactfulli 2021</span> 
+                    <span>© Copyright Tactfulli 2021</span> <br>
+                    <span>All Rights Reserved</span>
                 </div>
 
                 <div class="go-top" style="display: flex; width:95%">
