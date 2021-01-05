@@ -892,7 +892,6 @@ input[type="button"].btn--primary:focus {
     padding-right: 1rem !important;
     border-radius: 500px !important;
     display:block;
-    word-wrap: break-word;
 }
 
 button::-moz-focus-inner, input::-moz-focus-inner {
@@ -1477,7 +1476,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     position: relative;
     margin: 0;
     padding: 0;
-    left: 40%;
+    left: 43%;
     top: 50%;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
@@ -1487,7 +1486,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 
 .header-logo a {
     display: block;
-    left: 40%;
+    left: 43%;
     margin: 9px 0 0 0;
     padding: 0;
     outline: 0;
